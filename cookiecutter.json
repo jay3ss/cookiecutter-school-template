@@ -1,6 +1,7 @@
 {
     "school": "school",
     "course": "course",
+    "project_slug": "{{cookiecutter.course.lower().replace(' ', '_')}}",
     "professor": "professor",
     "description": "None",
     "homework": "homework",
