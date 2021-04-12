@@ -1,0 +1,11 @@
+{
+    "school": "school",
+    "course": "course",
+    "professor": "professor",
+    "description": "None",
+    "homework": "homework",
+    "tests": "tests",
+    "quizzes": "quizzes",
+    "notes": "notes",
+    "code": "code"
+}
