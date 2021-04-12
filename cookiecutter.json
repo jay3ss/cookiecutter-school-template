@@ -1,12 +1,17 @@
 {
     "school": "school",
     "course": "course",
-    "project_slug": "{{cookiecutter.course.lower().replace(' ', '_')}}",
+    "course_slug": "{{cookiecutter.course.lower().replace(' ', '_')}}",
     "professor": "professor",
     "description": "None",
     "homework": "homework",
+    "homework_slug": "{{cookiecutter.homework.lower().replace(' ', '_')}}",
     "tests": "tests",
+    "tests_slug": "{{cookiecutter.tests.lower().replace(' ', '_')}}",
     "quizzes": "quizzes",
+    "quizzes_slug": "{{cookiecutter.quizzes.lower().replace(' ', '_')}}",
     "notes": "notes",
-    "code": "code"
+    "notes_slug": "{{cookiecutter.notes.lower().replace(' ', '_')}}",
+    "code": "code",
+    "code_slug": "{{cookiecutter.code.lower().replace(' ', '_')}}"
 }
